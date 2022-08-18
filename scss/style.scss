@@ -3,26 +3,29 @@
  
 header {
     text-align:center ;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Cuprum', sans-serif;
     background-image: radial-gradient(grey, black);
     color: greenyellow;  
+    font-size: xx-large
 }
 
 .navbar {
     @include tipografia;
-    font-weight: map-get($font-weights, small);
-  
+    font-weight: map-get($font-weights, bold);
+    font-size: xx-large;
+    
         .navbar-brand {
             @extend .navbar;
             @include bordes;
-            font-size: xx-large;
-        }
-} 
+            font-size: xx-large;    
+        } 
+}
+
 
 .btn {
     background-color: greenyellow;
-    color: gray;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: grey;
+    font-family: 'Cuprum', sans-serif;
 }
 
 .promos {
@@ -40,6 +43,11 @@ header {
     align-items: center;
     justify-content: center;
     font-weight: map-get($font-weights, medium);
+}
+
+.card-text {
+    font-family: 'Cuprum', sans-serif;
+    font-size: large;
 }
 
 footer{
@@ -85,7 +93,12 @@ footer{
                                                               
 form {
     @include tipografia;
+    font-size: x-large;
     font-weight: map-get($font-weights, small);
     text-align: center;
+ 
+       legend {
+            font-size: xx-large;
+        }
 }
 

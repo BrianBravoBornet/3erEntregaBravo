@@ -1,18 +1,19 @@
 header {
   text-align: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   background-image: radial-gradient(grey, black);
   color: greenyellow;
+  font-size: xx-large;
 }
 
 .navbar, .navbar .navbar-brand {
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   color: greenyellow;
   background-color: gray;
-  font-size: x-large;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: xx-large;
 }
 .navbar .navbar-brand {
   border-color: greenyellow;
@@ -24,8 +25,8 @@ header {
 
 .btn {
   background-color: greenyellow;
-  color: gray;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: grey;
+  font-family: "Cuprum", sans-serif;
 }
 
 .promos {
@@ -34,15 +35,14 @@ header {
 .promos h2 {
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   color: greenyellow;
   background-color: gray;
-  font-size: x-large;
   border-color: greenyellow;
   border-style: groove;
   border-width: 5px;
   border-radius: 10px;
-  font-weight: 400;
+  font-weight: 200;
   font-size: xx-large;
 }
 
@@ -50,7 +50,12 @@ header {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-weight: 600;
+  font-weight: 400;
+}
+
+.card-text {
+  font-family: "Cuprum", sans-serif;
+  font-size: large;
 }
 
 footer {
@@ -82,10 +87,9 @@ footer .container__footer {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   color: greenyellow;
   background-color: gray;
-  font-size: x-large;
 }
 
 .box__footer .redes {
@@ -95,16 +99,15 @@ footer .container__footer {
   border-radius: 10px;
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   color: greenyellow;
   background-color: gray;
-  font-size: x-large;
 }
 
 .box__footer a {
   margin-top: 10px;
   color: greenyellow;
-  font-weight: 800;
+  font-weight: 600;
 }
 .box__footer a:hover {
   opacity: 0.3;
@@ -113,12 +116,15 @@ footer .container__footer {
 form {
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Cuprum", sans-serif;
   color: greenyellow;
   background-color: gray;
   font-size: x-large;
-  font-weight: 400;
+  font-weight: 200;
   text-align: center;
+}
+form legend {
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=style.css.map */
